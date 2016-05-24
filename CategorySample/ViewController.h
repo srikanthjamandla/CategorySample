@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NSString+tsk.h"
+#import "MyDelegate.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<MyDelegate>
 
 
 @end
